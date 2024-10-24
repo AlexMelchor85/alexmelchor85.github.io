@@ -1,0 +1,384 @@
+ *{
+                margin:0px;
+                padding:0px;
+} 
+header,nav,main,footer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: #fbffcd;
+}
+
+header{
+    color: #fbffcd;
+    height: 110px;
+    background-color: #001f36;
+    font-size: 32px;
+            
+}
+        
+nav{
+    height: 40px;
+    background-color: #000000;
+                
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+        
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+                
+}
+main{
+    height: auto;
+    background-color: #79ae92;
+}
+main nav{
+    height: 60px;
+    width: 800px;
+                
+            
+}
+section{
+    width: 800px;
+    height: auto;
+    background-color: #1c5560;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
+}
+           
+h2{
+    padding-bottom: 10px;
+}
+h5{
+    font-size: 14px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+footer{
+    height: 30px;
+    background-color: #001f36;
+}
+p{
+    margin-bottom: 20px;
+}
+    
+           
+ul a:link{
+    color: #fbffcd;
+        
+}
+ul a:visited{
+    color: #000000;
+                
+}
+         
+ul a:hover{
+    color: white;
+    font-weight: bolder;
+               
+            
+}
+ul li{
+    width: 75px;
+    background-color: #79ae92;
+    color: #EEEEEE;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+                
+}
+ul li a{
+   text-decoration:none;
+        
+}
+           
+
+img{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#casaplaya2{
+ width: 400px;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+}
+#playa{
+ width: 250px;
+    height: auto;
+    float: right;
+    padding-left: 15px;
+}
+#icono{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#capibara{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+#imagenesestilos img{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    
+    
+    
+}
+#imagenesestilos{
+    text-align: center;
+}
+#filtro1{
+    filter: brightness(200%);
+}
+#filtro2{
+    filter: contrast(50%);
+}
+#filtro3{
+    filter: grayscale(100%);
+}
+#filtro4{
+    filter: sepia(100%);
+}
+#filtro5{
+    filter: saturate(200%);
+}
+#filtro6{
+    filter: opacity(0.5);
+}
+#filtro7{
+    filter: invert(100%);
+}
+#filtro8{
+    filter: blur(3px);
+}
+#filtro9{
+    filter: drop-shadow(10px 10px 10px black);
+}
+#filtro10{
+    filter: contrast(150%) drop-shadow(10px 10px 5px black);
+}
+#filtro11{
+    filter: sepia(100%) contrast(150%) invert(100%);
+}
+#filtro12{
+    filter: saturate(200%) drop-shadow(10px 10px 10px black) contrast(150%);
+}
+
+
+
+
+
+
+#secciones{
+     width: 70%;
+    height: auto;
+    background-color: #1c5560;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
+}
+
+table{
+    color: #fbffcd;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    
+}
+#tabla0 td{
+    padding: 5px;
+    margin: 20px;
+    height: 30px;
+       
+}
+
+.tabla1{
+    width: 60%;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: #79ae92;
+    height: 50px;
+    
+}
+.tabla1 tbody{
+    background-color: #fbffcd;
+    color: #000000;
+    
+}
+.tabla1 td{
+    padding: 5px;
+    margin: 20px;
+    height: 30px;
+       
+}
+.tabla1 td, .tabla1 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+    
+}
+#tabla4{
+    width: 120%;
+    border-collapse: collapse;
+    
+}
+#tabla4 td, #tabla4 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #79ae92;
+    
+}
+
+
+
+
+
+#tabla2{
+    width: 65%;
+    border-collapse: collapse;
+    
+}
+#tabla2 td, #tabla2 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #001f36;
+}
+#tabla2 td, #tabla2 th{
+    padding: 5px;
+    margin: 20px;
+    height: 30px;
+}
+#tabla2 thead tr th{
+    background-color: #001f36;
+}
+#tabla2 tbody tr:nth-child(even){
+    background-color: #79ae92;
+    
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #fbffcd;
+    color: #000000;
+    
+}
+
+
+
+
+#tabla3{
+    width: 70%;
+    background-color: #79ae92;
+    border-collapse: collapse;
+    
+}
+
+#tabla3 td, #tabla3 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #79ae92;
+    
+}
+#tabla3 td, #tabla3 th{
+    padding: 5px;
+    margin: 20px;
+    height: 30px;
+    
+}
+#tabla3 tr:hover{
+    background-color: #001f36;
+    
+}
+
+#tabla3 td{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fbffcd;
+}
+#tabla3 th{
+    color: #000000;
+    background-color: #fbffcd;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fbffcd;
+}
+form   {
+    width: 50%;
+    padding: 30px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #79AE92;
+}
+label  {
+    color: #001F36;
+    font-weight: bolder;
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=text] ,   input[type=password]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #FBFFCD;
+    color: #001F36;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=submit]  {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    background-color: #001F36;
+    color: #FBFFCD;
+}
+#form2 #edad {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #FBFFCD;
+}
+
+#form2 #select {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #FBFFCD;
+    font-weight: bolder;
+}

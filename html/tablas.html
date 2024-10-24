@@ -1,0 +1,434 @@
+<html>
+<head>
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+    
+    </head>
+    <body>
+    <header>
+        <h1>TABLAS EN HTML</h1>
+    </header>
+     <nav>
+            
+    <ul>
+            <li> <a href="../index.html">Formatos</a></li>
+            <li><a href="Listas_css.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imágenes</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formulario.html">Formularios</a> </li>
+          
+    </ul>
+            
+    </nav>
+      
+    <main>
+        <section id="secciones">
+            <h2>Tabla simple con separación de border de celda</h2>
+            <p>Estos son algunos de mis contactos de confianza que he conocido a lo largo de mi vida, cada uno de ellos tiene su historia conmigo y del porque siguen actualmente acompañandome en esta travesia, todos ellos me han apoyado incondicionalmente y tienen su escencia para cada cosa que hacen, les dejo más detalles para que puedan contactarlos, hay desde diseñadores gráficos, enfermeras, ingenieros hasta lic. en mercadotecnia.
+            </p>
+            <table border="full" id="tabla0">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alejandro</td>
+                        <td>Melchor</td>
+                        <td>Aguirre</td>
+                        <td>2225657595</td>
+                        <td>alexmelchor888@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Iris Mayte</td>
+                        <td>Mendieta</td>
+                        <td>Hernández</td>
+                        <td>2243576894</td>
+                        <td>irismayte@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Juan Javier</td>
+                        <td>Palacios</td>
+                        <td>Cajica</td>
+                        <td>7456495075</td>
+                        <td>juanjavier7@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Ramírez</td>
+                        <td>Sánchez</td>
+                        <td>5646738549</td>
+                        <td>ismaelito@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ximena</td>
+                        <td>Gómez</td>
+                        <td>Hernández</td>
+                        <td>5463785436</td>
+                        <td>ximehernan@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Guadalupe Belén</td>
+                        <td>Morales</td>
+                        <td>Pacheco</td>
+                        <td>2233445768</td>
+                        <td>belenciaga@gmail.com</td>
+                    
+                    </tr>
+                    
+                </tbody>
+                
+                <tfoot>
+                </tfoot>
+            </table>
+        
+        </section>
+        
+        <section id="secciones">
+            <h2>Tabla modificiada por celda y con uso de colspan</h2>
+            <p>Estos son algunos de mis contactos de confianza que he conocido a lo largo de mi vida, cada uno de ellos tiene su historia conmigo y del porque siguen actualmente acompañandome en esta travesia, todos ellos me han apoyado incondicionalmente y tienen su escencia para cada cosa que hacen, les dejo más detalles para que puedan contactarlos, hay desde diseñadores gráficos, enfermeras, ingenieros hasta lic. en mercadotecnia.
+            </p>
+            <table border="full" class="tabla1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th colspan="2">Teléfono</th>
+                        <th>Email</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alejandro</td>
+                        <td>Melchor</td>
+                        <td>Aguirre</td>
+                        <td>2225657595</td>
+                        <td>2463343491</td>
+                        <td>alexmelchor888@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Iris Mayte</td>
+                        <td>Mendieta</td>
+                        <td>Hernández</td>
+                        <td>2243576894</td>
+                        <td>3435374565</td>
+                        <td>irismayte@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Juan Javier</td>
+                        <td>Palacios</td>
+                        <td>Cajica</td>
+                        <td>7456495075</td>
+                        <td>5463728453</td>
+                        <td>juanjavier7@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Ramírez</td>
+                        <td>Sánchez</td>
+                        <td>5646738549</td>
+                        <td></td>
+                        <td>ismaelito@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ximena</td>
+                        <td>Gómez</td>
+                        <td>Hernández</td>
+                        <td>5463785436</td>
+                        <td>6574857595</td>
+                        <td>ximehernan@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Guadalupe Belén</td>
+                        <td>Morales</td>
+                        <td>Pacheco</td>
+                        <td>2233445768</td>
+                        <td></td>
+                        <td>belenciaga@gmail.com</td>
+                    
+                    </tr>
+                    
+                </tbody>
+                
+                <tfoot>
+                </tfoot>
+            </table>
+        
+        
+        </section>
+        
+        <section id="secciones">
+            <h2>Tabla Zebra</h2>
+            <p>Estos son algunos de mis contactos de confianza que he conocido a lo largo de mi vida, cada uno de ellos tiene su historia conmigo y del porque siguen actualmente acompañandome en esta travesia, todos ellos me han apoyado incondicionalmente y tienen su escencia para cada cosa que hacen, les dejo más detalles para que puedan contactarlos, hay desde diseñadores gráficos, enfermeras, ingenieros hasta lic. en mercadotecnia. .
+            </p>
+            <table border="full" id="tabla2">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alejandro</td>
+                        <td>Melchor</td>
+                        <td>Aguirre</td>
+                        <td>2225657595</td>
+                        <td>alexmelchor888@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Iris Mayte</td>
+                        <td>Mendieta</td>
+                        <td>Hernández</td>
+                        <td>2243576894</td>
+                        <td>irismayte@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Juan Javier</td>
+                        <td>Palacios</td>
+                        <td>Cajica</td>
+                        <td>7456495075</td>
+                        <td>juanjavier7@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Ramírez</td>
+                        <td>Sánchez</td>
+                        <td>5646738549</td>
+                        <td>ismaelito@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ximena</td>
+                        <td>Gómez</td>
+                        <td>Hernández</td>
+                        <td>5463785436</td>
+                        <td>ximehernan@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Guadalupe Belén</td>
+                        <td>Morales</td>
+                        <td>Pacheco</td>
+                        <td>2233445768</td>
+                        <td>belenciaga@gmail.com</td>
+                    
+                    </tr>
+                    
+                </tbody>
+                
+                <tfoot>
+                </tfoot>
+            </table>
+        
+        
+        </section>
+        
+        <section id="secciones">
+            <h2>Tabla Hover</h2>
+            <p>Estos son algunos de mis contactos de confianza que he conocido a lo largo de mi vida, cada uno de ellos tiene su historia conmigo y del porque siguen actualmente acompañandome en esta travesia, todos ellos me han apoyado incondicionalmente y tienen su escencia para cada cosa que hacen, les dejo más detalles para que puedan contactarlos, hay desde diseñadores gráficos, enfermeras, ingenieros hasta lic. en mercadotecnia. .
+            </p>
+            <table border="full" id="tabla3">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alejandro</td>
+                        <td>Melchor</td>
+                        <td>Aguirre</td>
+                        <td>2225657595</td>
+                        <td>alexmelchor888@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Iris Mayte</td>
+                        <td>Mendieta</td>
+                        <td>Hernández</td>
+                        <td>2243576894</td>
+                        <td>irismayte@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Juan Javier</td>
+                        <td>Palacios</td>
+                        <td>Cajica</td>
+                        <td>7456495075</td>
+                        <td>juanjavier7@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Ramírez</td>
+                        <td>Sánchez</td>
+                        <td>5646738549</td>
+                        <td>ismaelito@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ximena</td>
+                        <td>Gómez</td>
+                        <td>Hernández</td>
+                        <td>5463785436</td>
+                        <td>ximehernan@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Guadalupe Belén</td>
+                        <td>Morales</td>
+                        <td>Pacheco</td>
+                        <td>2233445768</td>
+                        <td>belenciaga@gmail.com</td>
+                    
+                    </tr>
+                    
+                </tbody>
+                
+                <tfoot>
+                </tfoot>
+            </table>
+        
+        
+        </section>
+        
+        <section id="secciones" style="overflow-x: auto">
+            <h2>Tabla con Overflow</h2>
+            <p>Estos son algunos de mis contactos de confianza que he conocido a lo largo de mi vida, cada uno de ellos tiene su historia conmigo y del porque siguen actualmente acompañandome en esta travesia, todos ellos me han apoyado incondicionalmente y tienen su escencia para cada cosa que hacen, les dejo más detalles para que puedan contactarlos, hay desde diseñadores gráficos, enfermeras, ingenieros hasta lic. en mercadotecnia. .
+            </p>
+            <table border="full" id="tabla4" class="tabla1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alejandro</td>
+                        <td>Melchor</td>
+                        <td>Aguirre</td>
+                        <td>2225657595</td>
+                        <td>alexmelchor888@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Iris Mayte</td>
+                        <td>Mendieta</td>
+                        <td>Hernández</td>
+                        <td>2243576894</td>
+                        <td>irismayte@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Juan Javier</td>
+                        <td>Palacios</td>
+                        <td>Cajica</td>
+                        <td>7456495075</td>
+                        <td>juanjavier7@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ismael</td>
+                        <td>Ramírez</td>
+                        <td>Sánchez</td>
+                        <td>5646738549</td>
+                        <td>ismaelito@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Ximena</td>
+                        <td>Gómez</td>
+                        <td>Hernández</td>
+                        <td>5463785436</td>
+                        <td>ximehernan@gmail.com</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Guadalupe Belén</td>
+                        <td>Morales</td>
+                        <td>Pacheco</td>
+                        <td>2233445768</td>
+                        <td>belenciaga@gmail.com</td>
+                    
+                    </tr>
+                    
+                </tbody>
+                
+                <tfoot>
+                </tfoot>
+            </table>
+        
+        
+        </section>
+    
+        
+
+        
+        
+    </main>
+        
+    <footer>
+      <h5>Elaborado por Alejandro Melchor Aguirre</h5>
+    
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+</html>
